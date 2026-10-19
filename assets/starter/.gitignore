@@ -1,0 +1,13 @@
+# Уменьшает риск случайного добавления в Git; не ограничивает доступ агента
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem
+/secrets/
+/private/
+/inbox/*
+!/inbox/README.md
